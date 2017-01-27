@@ -1,0 +1,99 @@
+/*
+
+    CSS Styling sheet by Guillermo Moran
+    Used for homepage
+    March 2016
+
+    https://coolors.co/app/242424-931621-e8aa00-247ba0-f25f5c
+
+*/
+
+body {
+    background-color: #242424;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.img-border {
+
+  border: 3px solid white;
+}
+
+.page-header {
+    background-color: none;
+    color: #ffffff;
+}
+
+
+
+.bg-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #931621;
+    color: #ffffff;
+    margin-top: 70px;
+    border: 5px solid #191919;
+}
+
+.bg-title {
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+#aboutMeSec {
+    background-color: #E8AA00;
+}
+
+#projectsSec {
+    background-color: #247BA0;
+}
+
+.bg-aboutme {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #D69D00;
+    color: #ffffff;
+}
+
+.bg-projects {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #256D8C;
+    color: #ffffff;
+}
+
+.bg-footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F25F5C;
+    color: #ffffff;
+}
+
+.navbar-default {
+    background-color: #00A296;
+    border-color: #00A296;
+    color: white;
+}
+
+/* bootstrap title */
+.navbar-default .navbar-brand  {
+    color: white;
+}
+
+/* Links */
+a:link {
+         color: yellow;
+    }
+a:visited {
+            color: yellow;
+          }
+a:hover {
+          background:none;
+          color:#EF7A53;
+        }

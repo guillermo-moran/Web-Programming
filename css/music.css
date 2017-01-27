@@ -1,0 +1,29 @@
+/*
+
+    CSS Styling sheet by Guillermo Moran
+    Used for alt pages
+    January 2016
+
+*/
+
+body {
+    padding-top: 50px;
+}
+
+
+#footer {
+    padding-top: 50px;
+}
+
+/*
+a:link {
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    background:none;
+    color:#EF7A53;
+}
+*/

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<!--
+    Web template made by Guillermo Moran
+    February 2016
+
+    Blog
+-->
+
+<html lang="en">
+<head>
+    <title>Fiona's Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap Stuff-->
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- My own styling -->
+
+    <link rel="stylesheet" href="./css/blog.css">
+</head>
+
+<!--Start Body-->
+<body>
+
+  <!-- Navigation Bar-->
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="http://gmoran.create.stedwards.edu/">
+                    <img alt="Brand" src="../images/gm-logo.png" width="40" height="20">
+                </a>
+
+          </div> <!-- navbar-header -->
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+
+          <ul class="nav navbar-nav pull-right">
+              <li><a href="#" class="btn glyphicon glyphicon-trash"></a></li>
+
+              <!-- li><a href="#new"><button type="button" class="btn btn-primary btn-small btn-nav glyphicon glyphicon-pencil"></button></a></li> -->
+
+          </ul>
+      </div> <!-- navbar-collapse -->
+    </div> <!-- container-fluid -->
+  </nav>
+  <!-- End Navigation -->
+
+
+    <!-- Start container -->
+    <div class="container-fluid">
+      <div class="row"> <!-- Start Row -->
+
+          <div class="col-sm-4" > <!-- Sidebar Column -->
+              <div class="well">
+                    <img class="profile" src="./images/fiona.jpg" alt="fiona" height="50" width="50"/>
+                    <font size="4" color="black" style="padding-left: 10%;">Fiona the Pug</font>
+
+              </div>
+
+              <div class="well">
+                  My name is Fiona. I am a 2 year old pug currently living in Brownsville, TX. My hobbies
+                  include waking Guillermo up at 7am, destroying my stuffed animals, and sleeping on the
+                  couch.
+              </div>
+
+          </div> <!-- End Sidebar Column -->
+
+          <div class="col-sm-8" > <!-- Content Column -->
+              <!-- Name and entry box -->
+              <form>
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" required id="entry" placeholder="Update Fiona's Status!"></textarea>
+                </div>
+                <div class="container-fluid">
+                  <button type="submit" class="btn btn-primary" id="postBtn">Post</button>
+                </div>
+              </form>
+              <!-- End name and entry box -->
+
+              <div class="container-fluid postBox"> <!-- Start Post Container -->
+                  <!-- Profile Picture Display -->
+                  <div class="col-sm-2">
+                      <img class="profile" src="./images/fiona.jpg" alt="fiona" height="60" width="60"/>
+                  </div>
+                  <!-- End PP Display -->
+                  <div class="col-sm-10"> <!-- Start Post Content -->
+                      <font size="4" color="black">Fiona the Pug</font>
+                      <br>
+                      <p>
+                          I just broke a lamp lol my owner's gonna be PISSED. o.O
+                      </p>
+
+                      <div class="postDelete">
+
+                        <a href="#" class="btn glyphicon glyphicon-trash" role="button"></a>
+
+                      </div>
+
+                  </div> <!-- End Post Content -->
+              </div> <!--End Post Container -->
+
+          </div> <!-- End Content Container -->
+      </div> <!-- End Row -->
+    </div> <!-- End container -->
+
+
+    <!-- Start bg-content (footer) -->
+    <div class="container text-center footer">
+        <p>
+          Copyright &copy; 2016 Guillermo Morán | Made with love for <a href="http://gmoran.create.stedwards.edu/cosc2328"> COSC 2328</a>
+        </p>
+    </div>
+    <!-- End bg-content (footer) -->
+
+</body>
+</html>

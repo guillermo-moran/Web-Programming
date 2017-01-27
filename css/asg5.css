@@ -1,0 +1,40 @@
+       
+            table, tr, td {
+                padding: 5px;
+                margin: 5px;
+            }
+            
+            #msg {
+                color: red;
+                font-size: 1.5em;
+            }
+            
+            #myTable {
+                margin-left: 150px;
+                margin-right: 150px;
+            }
+            
+            h1 {
+                color: blue;
+                padding: 10px;
+                border: 2px solid;
+                border-radius: 25px;
+                border-color: #06425C;
+                text-align: center;
+                color: #CDBB79;
+                background-color: #06425C;
+                margin-left: 150px;
+                margin-right: 150px;
+                
+            }
+            
+            body {
+                background-color: #F2F2F2;
+                
+            }
+       
+            p {
+                margin-left: 150px;
+                margin-right: 150px;
+            }
+       

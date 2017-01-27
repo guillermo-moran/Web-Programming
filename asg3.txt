@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<!--
+
+-->
+
+<html lang="en">
+<head>
+    <title>Soccer Coaching</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap Stuff-->
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- My own styling -->
+    <link rel="stylesheet" href="./css/asg3_style.css">
+
+</head>
+
+<!--Start Body-->
+<body>
+
+
+
+    <!-- Page Header -->
+    <div class="container-fluid bg-header">
+      <div class="row">
+        <div class="col-sm-11 col-sm-offset-1">
+          <div class="page-header">
+              <h1 class="heading">Soccer Coaching - Crash Course</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Page header -->
+
+    <!-- Start bg-content -->
+    <div class="container-fluid">
+      <div class="row"> <!-- Start Row -->
+
+          <div class="col-sm-7 col-sm-offset-1"> <!-- Content Column -->
+
+              <article id="introduction">
+                <h3>Introduction</h3>
+
+                      So you want to be a soccer coach? This quick and easy crash course
+                      will get you on your way to successfully coaching a junior league
+                      soccer team in no time!
+                      <br><br>
+                      This tutorial will teach you the basics of being a junior league
+                      soccer coach. From starting your team off with basic formations,
+                      learning the basic rules of the game, and explaining the offside rule
+                      (and how to use it to your advantage!).
+
+              </article>
+
+              <article id="formation">
+                <h3>Basic Formation</h3>
+
+                      The easiest and most basic formation in soccer is the 4-4-2 formation.
+                      It is the most commonly-used formation in the game, and is the ideal
+                      formation for any beginner team looking to find a balance in their
+                      defense, midfield, and attacking form.
+                      <br><br>
+                      The formation looks like so:
+                      <br>
+                      <img src="./images/442formation.png" alt="The 4-4-2 Formation" />
+                      <br><br>
+                      While all positions in this formation are crucial, the most important
+                      players in any formation are the midfielders. Your midfield serves both
+                      as the playmaking zone and the recovery zone. For your midfield, you
+                      should select players that are quick, agile, and have good control of the
+                      ball. Your midfield moves up and down the field a lot, so make sure that
+                      your players are especially capable of doing so without tiring out.
+
+              </article>
+
+              <article id="rules">
+                <h3>Simple Rules</h3>
+
+                      Aside from the rules of common sense, certain rules apply to the
+                      game. Below is a list of basic rules you and your players should keep in
+                      mind:
+                      <br>
+                      <ul>
+                          <li>No shoving</li>
+                          <li>No biting (Luis Suarez)</li>
+                          <li>Do not intentionally bring a player down</li>
+                          <li>Do not slide tackle from behind</li>
+                          <li>Only the goalkeeper may use his hands</li>
+                          <li>Keep both feet on the ground when doing a throw-in</li>
+                          <li>Throw from behind your head with both hands for a throw-in</li>
+                          <li>Only 11 players at a time per team</li>
+                          <li>Depending on your league, your substitutions may be limited</li>
+                      </ul>
+
+              </article>
+
+              <article id="offside">
+                <h3>What is Offside?</h3>
+
+                      Offside is when a player is closer to the opponent's goal line than
+                      the second-to-last opponent (last one being the goalkeeper).
+                      <br><br>
+                      For example:
+                      <br>
+                      <img src="./images/offside.png" alt="Offside" />
+                      <br><br>
+                      The blue player recieving the pass would be considered offside,
+                      because he/she is behind the red team's line of defense. In soccer,
+                      the pass reciever in considered in an illegal position of play. As a
+                      result, the red team would be awarded a free kick.
+
+                    
+              </article>
+
+
+          </div> <!-- End Content Column -->
+
+          <!-- Sidebar Column -->
+
+          <div class="col-sm-3">
+
+              <div class="list-group">
+                  <div class="list-group-item active">Navigation</div>
+                  <a href="#introduction" class="list-group-item">Introduction</a>
+                  <a href="#formation" class="list-group-item">Basic Formation</a>
+                  <a href="#rules" class="list-group-item">Simple Rules</a>
+                  <a href="#offside" class="list-group-item">What is Offside?</a>
+
+              </div>
+        </div>
+        <!-- End Sidebar Column -->
+
+
+      </div> <!-- End Row -->
+
+    </div>
+    <!-- End bg-content -->
+
+
+    <!-- Start bg-content (footer) -->
+    <div class="container text-center" id="footer">
+        <p>
+          Copyright &copy; 2016 Guillermo Morán | Made with love for <a href="http://gmoran.create.stedwards.edu/cosc2328"> COSC 2328</a>
+        </p>
+    </div>
+    <!-- End bg-content (footer) -->
+
+</body>
+</html>
